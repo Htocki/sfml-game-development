@@ -5,7 +5,7 @@ set(EXEC executable)
 
 project(${PROJ} LANGUAGES CXX)
 
-add_executable(${EXEC} main.cpp)
+add_executable(${EXEC} main.cpp game.cpp)
 
 if (CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   include(CTest)
